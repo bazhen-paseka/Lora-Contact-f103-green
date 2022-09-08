@@ -1,0 +1,3 @@
+[submodule "Drivers/AES_sm"]
+	path = Drivers/AES_sm
+	url = https://github.com/bazhen-paseka/AES_sm.git
