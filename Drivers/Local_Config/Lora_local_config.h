@@ -23,10 +23,13 @@
 *								    DEFINES                     
 **************************************************************************
 */
-	#define SOFT_VERSION 	150
+	#define SOFT_VERSION 	200
 	#define MASTER			0
 	#define SLAVE_QNT		5
 	#define SLAVE_NUMBER	1
+
+	#define		ADC_COEFFICIENT		5400
+
 /*
 **************************************************************************
 *								   DATA TYPES
