@@ -28,7 +28,8 @@
 	#define SLAVE_QNT		5
 	#define SLAVE_NUMBER	1
 
-	#define		ADC_COEFFICIENT		5400
+	//	#define		ADC_COEFFICIENT		5400	3 x 36k
+	#define		ADC_COEFFICIENT		8233
 
 /*
 **************************************************************************
