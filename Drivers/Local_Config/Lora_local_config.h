@@ -23,7 +23,7 @@
 *								    DEFINES                     
 **************************************************************************
 */
-	#define SOFT_VERSION 	2010
+	#define SOFT_VERSION 	2020
 	#define MASTER			0
 	#define SLAVE_QNT		5
 	#define SLAVE_NUMBER	1
