@@ -24,13 +24,18 @@
 **************************************************************************
 */
 	#define SOFT_VERSION 	2020
-	#define MASTER			1
+	#define MASTER
+
+#ifndef MASTER
+	#define SLAVE
 	#define SLAVE_QNT		5
-	#define SLAVE_NUMBER	1
+	// #define SLAVE_NUMBER	1	// kostil
+	#define		ADC_COEFFICIENT		5400	//	for SLAVE 3 x 36k
+#else
+	#define		ADC_COEFFICIENT		8233	//	for MASTER	3 x 36k
+#endif
 
-	//#define		ADC_COEFFICIENT		5400	//	for SLAVE 3 x 36k
-		#define		ADC_COEFFICIENT		8233	//	for MASTER	3 x 36k
-
+	#define SLAVE_NUMBER	1	// kostil
 /*
 **************************************************************************
 *								   DATA TYPES
