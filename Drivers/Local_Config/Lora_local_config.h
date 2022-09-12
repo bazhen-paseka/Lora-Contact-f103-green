@@ -24,7 +24,7 @@
 **************************************************************************
 */
 	#define SOFT_VERSION 	2020
-	#define MASTER
+//	#define MASTER
 
 #ifdef MASTER
 	#define		ADC_COEFFICIENT		8233	//	for MASTER	3 x 36k
@@ -33,7 +33,8 @@
 	#define 	SLAVE_QNT			5
 	#define 	SLAVE_NUMBER		1
 	#define		ADC_COEFFICIENT		5400	//	for SLAVE 3 x 36k
-	#define 	LOW_POWER_STOP_MODE
+//	#define 	LOW_POWER_STOP_MODE
+	#define 	LOW_POWER_SLEEP_MODE
 #endif
 
 /*
