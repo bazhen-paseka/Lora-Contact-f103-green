@@ -209,8 +209,9 @@ void EXTI0_IRQHandler(void)
   /* USER CODE BEGIN EXTI0_IRQn 0 */
 
 	DIO0_status = 1;
+#ifdef SLAVE
 	HAL_GPIO_TogglePin(LED_RED_GPIO_Port, LED_RED_Pin);
-
+#endif
   /* USER CODE END EXTI0_IRQn 0 */
   HAL_GPIO_EXTI_IRQHandler(DIO0_Pin);
   /* USER CODE BEGIN EXTI0_IRQn 1 */

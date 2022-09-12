@@ -33,8 +33,8 @@
 	#define 	SLAVE_QNT			5
 	#define 	SLAVE_NUMBER		1
 	#define		ADC_COEFFICIENT		5400	//	for SLAVE 3 x 36k
-//	#define 	LOW_POWER_STOP_MODE
-	#define 	LOW_POWER_SLEEP_MODE
+	#define 	LOW_POWER_STOP_MODE
+//	#define 	LOW_POWER_SLEEP_MODE
 #endif
 
 /*
