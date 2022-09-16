@@ -24,10 +24,11 @@
 **************************************************************************
 */
 	#define SOFT_VERSION 	2020
-//	#define MASTER
+	#define MASTER
 
 #ifdef MASTER
-	#define		ADC_COEFFICIENT		8233	//	for MASTER	3 x 36k
+	//#define		ADC_COEFFICIENT		8233	//	for MASTER	3 x 36k
+	#define		ADC_COEFFICIENT		5400	//	f
 #else
 	#define 	SLAVE
 	#define 	SLAVE_QNT			5
